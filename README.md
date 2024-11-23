@@ -36,9 +36,9 @@ Follow these steps to install the tool:
    ```bash
    pip install -r requirements.txt
    
-### uage
+## usage
 
-**Command-Line Interface**
+## Command-Line Interface
 1. **Start the Detection**:
     Simply run the following command to start detecting potential DDoS attacks:
    ```bash
@@ -48,9 +48,8 @@ Follow these steps to install the tool:
 
 ## Graphical User Interface
 1. **Launch the GUI**:
-
   Run the tool with the --gui option:
-  ```bash
+     ```bash
   python ddos_detection.py --gui
 
 2. **Use the Interface**:
@@ -58,10 +57,8 @@ Follow these steps to install the tool:
 
 ## Example
   Here’s a simple example of how to run the tool with the GUI:
-
-  ```bash
+     ```bash
   python ddos_detection.py --gui --log-level=info --output-format=json
-
 ## Contributing
   We welcome contributions! If you are interested in contributing to this project, please follow these steps:
 
